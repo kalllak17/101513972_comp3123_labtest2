@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "5bc4d8dd-2efb-466f-a642-040bfac9134a",
+		"name": "comp3123_labtest_2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48585866"
+	},
+	"item": [
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=e96c6a4f503fa1be2f29bd846d23b726",
+							"protocol": "https",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Toronto"
+								},
+								{
+									"key": "appid",
+									"value": "e96c6a4f503fa1be2f29bd846d23b726"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 27 Nov 2025 18:38:08 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "529"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Cache-Key",
+							"value": "/data/2.5/weather?q=toronto"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"coord\": {\n        \"lon\": -79.4163,\n        \"lat\": 43.7001\n    },\n    \"weather\": [\n        {\n            \"id\": 804,\n            \"main\": \"Clouds\",\n            \"description\": \"overcast clouds\",\n            \"icon\": \"04d\"\n        }\n    ],\n    \"base\": \"stations\",\n    \"main\": {\n        \"temp\": 275.33,\n        \"feels_like\": 268.33,\n        \"temp_min\": 274.21,\n        \"temp_max\": 276.2,\n        \"pressure\": 1007,\n        \"humidity\": 73,\n        \"sea_level\": 1007,\n        \"grnd_level\": 990\n    },\n    \"visibility\": 10000,\n    \"wind\": {\n        \"speed\": 15.2,\n        \"deg\": 260,\n        \"gust\": 20.12\n    },\n    \"clouds\": {\n        \"all\": 100\n    },\n    \"dt\": 1764268079,\n    \"sys\": {\n        \"type\": 2,\n        \"id\": 2099289,\n        \"country\": \"CA\",\n        \"sunrise\": 1764246438,\n        \"sunset\": 1764279832\n    },\n    \"timezone\": -18000,\n    \"id\": 6167865,\n    \"name\": \"Toronto\",\n    \"cod\": 200\n}"
+				}
+			]
+		}
+	]
+}
