@@ -32,3 +32,7 @@ The project is deployed on **Vercel** here:
 
 ---
 
+## Postman
+
+Use **comp3123_labtest_2.postman_collection.json** to import collection to a Postman.
+Also check API response in the collection.
